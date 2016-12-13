@@ -1,0 +1,124 @@
+*{
+font-family: 'Roboto Slab', serif;
+font-size: 18px;
+}
+
+
+#header {
+	font-size: 48px;
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+
+#start {
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	margin-top:50px;
+}
+
+#aside {
+	position: fixed;
+	outline-style: dashed;
+	outline-color: red;
+	margin-right: 125px;
+	clear: both;
+	float: right;
+}
+
+#ttl {
+	color: white;
+}
+#score {
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	text-align: center;
+}
+
+.timer {
+    border:1px #666666 solid;
+    width:190px;
+    height:50px;
+    line-height:50px;
+    font-size:36px;
+    font-family:"Courier New", Courier, monospace;
+    text-align:center;
+    background: white;
+    margin: 0 auto;
+}
+
+#buttons {
+
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+#question {
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.containerOdd {
+	background: white;
+	opacity: .65;
+	padding: 20px;
+	margin:20px;
+	max-width: 70%;
+}
+
+.containerEven {
+	opacity: .90;
+	background: grey;
+	padding: 20px;
+	margin:20px;
+	max-width: 70%;
+}
+/*media - max 979 min 769*/
+@media all and (max-width: 979px) and (min-width: 769px){
+
+#aside {
+	padding: 5px;
+	margin-right: 5px;
+	max-width: 10%;
+}
+
+.containerEven {
+	padding: 20px;
+	margin:20px;
+	max-width: 60%;
+}
+.containerOdd {
+	padding: 20px;
+	margin:20px;
+	max-width: 60%;
+	}
+}
+
+/*media max 768 min 641*/
+@media all and (max-width:768px) and (min-width: 641px){
+.containerEven {
+	padding: 20px;
+	margin:20px;
+	max-width: 50%;
+}
+.containerOdd {
+	padding: 20px;
+	margin:20px;
+	max-width: 50%;
+	}
+}
+
+/*media max 640*/
+@media (max-width: 640px) {
+.containerEven {
+	padding: 20px;
+	margin:20px;
+	max-width: 55%;
+}
+.containerOdd {
+	padding: 20px;
+	margin:20px;
+	max-width: 55%;
+	}
+	}

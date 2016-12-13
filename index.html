@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dogfish Head Trivia</title>
+
+  <!-- style -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+
+   <!-- Added a link to Bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+</head>
+<body>
+
+<header id="header" >Dogfish Head Trivia</header>
+
+        
+        <div class="control" class="col-md-2 col-md-offset-10">
+            <div id="start">Click on me to Start Game</div> 
+             <button onClick=>Start</button> 
+            <br>
+
+
+
+
+
+	<div id="aside" class="col-md-3 col-md-offset-9">
+		<aside>
+		<div class="timer">
+            <span class="minute">00</span>:<span class="second">00</span>
+        </div>
+		<div id = buttons>
+		<input type="button" id="btn" value="Done"/>
+		<!-- <input type="button" id="btnclr" value="Clear"/> -->
+		</div>
+
+		<div id = results>
+		<h2 id="score">Score</h2>
+		</div>
+	</div>
+		</aside>
+
+<div class=background class="col-md-8" id = "quiz">
+<div class="containerOdd" class="col-md-4">
+		
+		<div id="one">
+
+		<fieldset id="q1">
+
+
+		<legend id="question">Question One: The Dogfish Head brewpub opened in what year?</legend> 
+
+		<label><input type="radio" name="q1" value="a"/>2004</label><br/> 
+		<label><input type="radio" name="q1" value="x"/>1995</label><br/> 
+		<label><input type="radio" name="q1" value="b"/>1987</label><br/>
+		<label><input type="radio" name="q1" value="c"/>1999</label><br/> 
+		</fieldset>
+
+</div>
+	</div>
+
+	<div class="containerEven" class="col-md-4">
+		<fieldset id="q2"> 
+
+		<legend id="question">Question Two: How many barrels of beer did Dogfish Head brew in 2015?</legend> 
+
+		<label><input type="radio" name="q2" value="a"/>500,000</label><br/> 
+		<label><input type="radio" name="q2" value="b"/>750,000</label><br/> 
+		<label><input type="radio" name="q2" value="x"/>225,000</label><br/> 
+		<label><input type="radio" name="q2" value="c"/>175,000</label><br/> 
+		</fieldset>
+	</div>
+
+	<div class="containerOdd" class="col-md-4">
+		<fieldset id="q3"> 
+
+		<legend id="question">Question Three: Founder of Dogfish Head, Sam Calagione, recorded an album in 2003.  What style music was it?</legend> 
+
+		<label><input type="radio" name="q3" value="a"/>country</label><br/> 
+		<label><input type="radio" name="q3" value="b"/>hard rock</label><br/> 
+		<label><input type="radio" name="q3" value="c"/>blue grass</label><br/> 
+		<label><input type="radio" name="q3" value="x"/>hip hop</label>
+		</fieldset>
+	</div>
+
+	<div class="containerEven" class="col-md-4">
+
+		<fieldset id="q4">
+
+		<legend id="question">Question Four: Dogfish Head is known for "inventing" continually hopped beer.  What was the first method they used to achieve this effect?</legend> 
+
+		<label><input type="radio" name="q4" value="x"/>Duct tape, perforated bucket to hold the hops, and a vintage vibrating football game</label><br/> 
+		<label><input type="radio" name="q4" value="a"/>Funnel for hops, inner workings of a vibrating bed, and a bypass for the "Insert Quarters" requirement</label><br/> 
+		<label><input type="radio" name="q4" value="b"/>Colander, screening material, and wet dry vacuum running in reverse</label><br/>
+		<label><input type="radio" name="q4" value="c"/>Three hand held sanders attached to a metal roof with perforations</label><br/> 
+		</fieldset>
+
+	</div>
+
+	<div class="containerOdd" class="col-md-4">
+		<fieldset id="q5"> 
+
+		<legend id="question">Question Five: Dogfish Head made a malt liquor to prove it could be a quality product when done right. What was the beer called?</legend> 
+
+		<label><input type="radio" name="q5" value="a"/>The Pain Relieva</label><br/> 
+		<label><input type="radio" name="q5" value="b"/>Mad Dogfish</label><br/> 
+		<label><input type="radio" name="q5" value="c"/>Midnight Special</label><br/> 
+		<label><input type="radio" name="q5" value="x"/>Liquor de Malt</label><br/>
+		</fieldset>
+
+	</div>
+
+	<div class="containerEven" class="col-md-4">
+
+		<fieldset id="q6">
+
+		<legend id="question">Question Six: Sam Calagione's first homebrew was brewed in his NYC apartment kitchen.  What was it?</legend> 
+
+		<label><input type="radio" name="q6" value="x"/>Cherry infused pale ale called "Cherry Brew"</label><br/> 
+		<label><input type="radio" name="q6" value="a"/>Sweet stout called "Chew on This"</label><br/> 
+		<label><input type="radio" name="q6" value="b"/>Irish Red called "Hair of the Dog" - the beer was a straightforward red, but he discovered his roommates dog's fur in it when bottling.</label><br/> 
+		<label><input type="radio" name="q6" value="c"/>A porter called "Potable Porter"</label><br/>
+		</fieldset>
+
+	</div>
+
+	<div class="containerOdd" class="col-md-4">
+
+
+		<fieldset id="q3"> 
+
+		<legend id="question">Question Seven: The beer Pangaea is named so because:</legend> 
+
+		<label><input type="radio" name="q7" value="a"/>It promotes global collaboration and peace</label><br/> 
+		<label><input type="radio" name="q7" value="b"/>It was inspired by Sam's travels to each continent</label><br/> 
+		<label><input type="radio" name="q7" value="x"/>It contains ingredients from each continent</label><br/> 
+		<label><input type="radio" name="q7" value="c"/>For each of the world's religions</label><br/>
+		</fieldset>
+
+	</div>
+
+	<div class="containerEven" class="col-md-4">
+
+
+		<fieldset id="q8"> 
+
+		<legend id="question">Question Eight: Two of Dogfish Head's beers have an ABV of 18%, which two?</legend> 
+
+		<label><input type="radio" name="q8" value="a"/>Red and White and Noble Rot</label><br/> 
+		<label><input type="radio" name="q8" value="b"/>Immort Ale and Palo Santo</label><br/> 
+		<label><input type="radio" name="q8" value="x"/>120 Minute and World Wide Stout</label><br/> 
+		<label><input type="radio" name="q8" value="c"/>Johnny Cask and Punkin</label><br/>
+		</fieldset>
+
+	</div> 
+
+	<div class="containerOdd" class="col-md-4">
+
+		<fieldset id="q9"> 
+
+		<legend id="question">Question Nine: Sam Calagione picked Rehoboth Beach, Deleware for his original brewpub because:</legend> 
+
+		<label><input type="radio" name="q9" value="a"/>Low taxes</label><br/> 
+		<label><input type="radio" name="q9" value="x"/>No brewpubs existed in the state at the time</label><br/> 
+		<label><input type="radio" name="q9" value="b"/>His family had property he got for free</label><br/> 
+		<label><input type="radio" name="q9" value="c"/>He loved the beach and got a great deal for the spot</label><br/>
+		</fieldset>
+
+	</div>
+
+	<div class="containerEven" class="col-md-4">
+
+		<fieldset id="q10"> 
+
+		<legend id="question">Question Ten: Sam Calagione has done many exciting things.  Which one of these did he NOT do?</legend> 
+
+		<label><input type="radio" name="q10" value="a"/>Rowed across the mouth of Delaware Bay to Cape May to deliver the first DFH beer for sale outside of the state of Delaware.</label><br/> 
+		<label><input type="radio" name="q10" value="b"/>Created and hosted two shows: "Brew Masters" and "That's Odd…Let's Drink It" </label><br/> 
+		<label><input type="radio" name="q10" value="x"/>Created a beer with an alcohol content of 47% called Forgotten Realm</label><br/> 
+		<label><input type="radio" name="q10" value="c"/>Brewed a beer that is made from human saliva, based on the Peruvian style called Chicha</label><br/>
+		</fieldset>
+
+	</div>
+
+
+
+	<style> 
+
+	  body {  
+	    background-image: url("assets/images/DFHRust.jpg");
+	  }
+
+	</style>
+	
+</div>
+
+ <script src="assets/javascript/app.js"></script>
+</body>
+
+
+</html>
